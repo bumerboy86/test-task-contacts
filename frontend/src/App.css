@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  max-width: 900px;
+  width: 100%;
+  gap: 30px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 7px;
+  width: 40%;
+  background: white;
+  align-items: center;
+}
+
+input {
+  padding: 7px;
+  width: 100%;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+button {
+  background: rgb(34, 84, 177);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+
+button:disabled {
+  background: rgb(106, 124, 156);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7px;
+  width: 40%;
+  background: white;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.text {
+  word-break: break-all;
+  text-align: left;
+}
+
+.contact {
+  position: relative;
+  width: 100%;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+.contact:last-child {
+  border: none;
+}
+
+.delete {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background: inherit;
+  color: rgb(12, 11, 11);
+  right: 5px;
+  top: 0;
+}
+
+.delete:hover {
+  color: rgb(143, 4, 4);
+  font-weight: 600;
+  transition: 0.2s linear all;
+  transform: scale(1.1);
+}
