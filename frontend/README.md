@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+# Контактное приложение (Фронтенд)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Это фронтенд-приложение представляет собой интерфейс для работы с контактами, включая добавление, удаление и просмотр всех контактов
 
-Currently, two official plugins are available:
+> Приложение разработано с использованием следующих технологий
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite
+- TypeScript
+- React
+- Библиотека react-input-mask
+- Библиотека react-toastify
+- Библиотека rtk query
 
-## Expanding the ESLint configuration
+## Установка
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Склонируйте репозиторий:
 
-- Configure the top-level `parserOptions` property like this:
+- sh
+- git clone https://github.com/bumerboy86/test-task-contacts.git
+- cd frontend
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Установите зависимости
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- sh
+- npm install
+
+## Запустите приложение
+
+- sh
+- npm run dev
+
+## Как это работает
+
+- Приложение разработано с использованием Vite и TypeScript.
+- Реакт-компоненты и маршруты определены в папке src.
+- Для ввода имени обычный input.
+- Для ввода номеров телефонов используется библиотека react-input-mask.
+- Для уведомлений и сообщений обратной связи используется библиотека react-toastify.
+- Для работы с данными и API используется библиотека rtk query. В папке src/store/controllers/contactsApi.ts
+- Файл tsconfig.json настроен для TypeScript.
+
+## Контрибьюторы
+
+- Воронов Руслан Булатович
+
+## Лицензия
+
+- Этот проект лицензирован под лицензией MIT для свободного использования

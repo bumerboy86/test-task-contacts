@@ -13,7 +13,7 @@
 > Склонируйте репозиторий:
 
 - sh
-- git clone https://github.com
+- git clone https://github.com/bumerboy86/test-task-contacts.git
 - cd backend
 
 ## Установите зависимости
@@ -36,10 +36,9 @@
 
 ## Информация
 
-> Маршруты API определены в папке src/controllers.
-> Сервер Express настроен в файле src/index.ts.
-
-Файл tsconfig.json настроен для TypeScript.
+- Маршруты API определены в папке src/controllers.
+- Сервер Express настроен в файле src/index.ts.
+- Файл tsconfig.json настроен для TypeScript.
 
 ## Контрибьюторы
 
@@ -47,4 +46,4 @@
   
 ## Лицензия
 
-- Этот проект лицензирован под лицензией MIT для свободного использованя
+- Этот проект лицензирован под лицензией MIT для свободного использования
